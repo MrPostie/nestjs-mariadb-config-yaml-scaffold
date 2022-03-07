@@ -1,0 +1,11 @@
+# Global settings for the app
+app: 
+  port: 3050
+
+# Options for the database. Username and password have to be stored in a .env file
+# using DATABASE_USER and DATABASE_PASSWORD
+database:
+  host: localhost
+  port: 33931
+  type: mariadb
+  name: locator_dev
